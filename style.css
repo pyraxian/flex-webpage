@@ -82,7 +82,8 @@ a {
 .button {
     background-color: #3882f6;
     color: #E5E7EB;
-    border: 1px solid #1F2937;
+    font-weight: 700;
+    border: 2px solid #1F2937;
     border-radius: 5px;
     padding: 5px 20px;
 }
@@ -92,6 +93,7 @@ a {
     flex-grow: 1;
     justify-content: space-evenly;
     align-items: center;
+    margin: 0px 100px;
 }
 
 .information-title {
@@ -132,6 +134,13 @@ a {
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
+    margin: 20px 200px;
+}
+
+.quote-attribution {
+    align-self: flex-end;
+    margin: 0px 300px;
+
 }
 
 .call-to-action {
