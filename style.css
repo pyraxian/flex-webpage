@@ -49,15 +49,15 @@ a {
     background-color: #1F2937;
     display: flex;
     flex-grow: 2;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 50px
+    gap: 30px
 }
 
 .hero-text {
     max-width: 500px;
     flex-wrap: wrap;
-    margin: 20px;
+    margin-left: 100px;
 }
 
 .hero-main-text {
@@ -69,14 +69,24 @@ a {
 .hero-secondary-text {
     color: #E5E7EB;
     font-size: 18px;
+    margin: 10px 0px 10px 0px;
 }
 
 .hero-image {
     background-color: #E5E7EB;
     width: 400px;
     height: 200px;
-    flex: 1;
-    margin: 20px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image-text {
+    max-width: 300px;
+    flex-wrap: wrap;
+    margin: 10px;
+    text-align: center;
 }
 
 .button {
@@ -101,7 +111,7 @@ a {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
-    margin: 20px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
 }
@@ -109,6 +119,7 @@ a {
 .info-item {
     max-width: 100px;
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .info-image {
